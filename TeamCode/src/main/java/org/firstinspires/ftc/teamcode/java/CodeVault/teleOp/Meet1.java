@@ -69,7 +69,7 @@ public class Meet1 extends LinearOpMode {
 
             // --- Shooter controls
             double shooter = gamepad1.right_trigger;
-            shooter -= 0.3;
+            shooter -= 0.35;
             if (shooter > 0.1) {
                 shooterRight.setPower(shooter);
                 shooterLeft.setPower(shooter);
